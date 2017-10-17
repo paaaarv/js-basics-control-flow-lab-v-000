@@ -12,11 +12,9 @@ function scuberGreetingForFeet(feet) {
   }
 
 };
-
-let nyc = "NYC"
 function ternaryCheckCity(theCity){
 
-  value = (theCity === "NYC") ?  "Ok, sounds good." : "No go."
+  const value = (theCity === "NYC") ?  "Ok, sounds good." : "No go."
 
   value;
 };
