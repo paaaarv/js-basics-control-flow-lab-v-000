@@ -18,7 +18,7 @@ function ternaryCheckCity(theCity){
   if(theCity === nyc){
     return "Ok, sounds good."
   }
-  theCity === nyc ? return "Ok, sounds good." : return "No go."
+  theCity === nyc ?  "Ok, sounds good." : "No go."
 };
 
 
