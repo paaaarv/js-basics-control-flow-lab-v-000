@@ -17,6 +17,13 @@ function ternaryCheckCity(theCity){
   const value = (theCity === nyc) ?  `Ok, sounds good.` : `No go.`
 
   value;
+
+  if (theCity=== nyc){ 
+    return "Ok, sounds good."
+  }else { 
+    return "No go."
+  }
+  
 };
 
 
