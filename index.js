@@ -13,9 +13,9 @@ function scuberGreetingForFeet(feet) {
 
 };
 
-
+let nyc = "NYC" 
 function ternaryCheckCity(city){
-  city === "NYC" ? "Ok, sounds good." : "No go."
+  city === nyc ? "Ok, sounds good." : "No go."
 };
 
 
